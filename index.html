@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog-Post</title>
+    <link rel="stylesheet" href="./scss/css/main.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="head-container">
+        <div class="first-container">
+          <div class="logo">
+            <img src="/img/logo.svg" alt="" />
+          </div>
+          <button class="burger-menu hamburger" id="burger-button"></button>
+        </div>
+
+        <!-- Nav bar starts here -->
+
+        <nav class="nav-contents">
+          <!-- Drop Down element 1  -->
+          <div class="dropdown">
+            <button type="button" class="dropbtn" id="product-btn">
+              Product
+              <img class="arrow" src="./img/icon-arrow-dark.svg" />
+            </button>
+
+            <ul class="dropdownContent drop-cont1" id="product-dropdwn">
+              <li><a class="drop-link" href="#">Overview</a></li>
+              <li><a class="drop-link" href="#">Pricing</a></li>
+              <li><a class="drop-link" href="#">Marketplace</a></li>
+              <li><a class="drop-link" href="#">Features</a></li>
+              <li><a class="drop-link" href="#">Integrations</a></li>
+            </ul>
+          </div>
+          <!-- Drop Down element 2 -->
+          <div class="dropdown">
+            <button type="button" class="dropbtn" id="company-btn">
+              Company
+              <img class="arrow" src="./img/icon-arrow-dark.svg" />
+            </button>
+
+            <ul class="dropdownContent drop-cont2" id="company-dropdwn">
+              <li><a class="drop-link" href="#">About</a></li>
+              <li><a class="drop-link" href="#">Team</a></li>
+              <li><a class="drop-link" href="#">Blog</a></li>
+              <li><a class="drop-link" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <!-- Drop down element 3 -->
+          <div class="dropdown">
+            <button type="button" class="dropbtn" id="connect-btn">
+              Connect
+              <img class="arrow" src="./img/icon-arrow-dark.svg" />
+            </button>
+
+            <ul class="dropdownContent drop-cont3" id="connect-dropdwn">
+              <li><a class="drop-link" href="#">Contact</a></li>
+              <li><a class="drop-link" href="#">Newsletter</a></li>
+              <li><a class="drop-link" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+          <hr />
+          <!-- login and signup btn -->
+          <div class="login-button">
+            <button class="login">Login</button>
+            <button class="sign-up">Sign up</button>
+          </div>
+        </nav>
+
+        <!-- navbar ends here -->
+        <!-- header info starts here -->
+        <div class="header-info">
+          <h1>A modern publishing platform</h1>
+          <p>Grow your audience and build your online brand</p>
+        </div>
+        <!-- header button starts here -->
+        <div class="buttons">
+          <button class="start-btn">
+            <a href="#" class="start-link">Start for Free</a>
+          </button>
+          <button class="learn-btn">
+            <a href="#" class="learn-link">Learn More</a>
+          </button>
+        </div>
+      </header>
+      <!-- SECOND CONTENTS BEGINS HERE -->
+      <div class="content">
+        <div class="section-one">
+          <h2 class="title">Designed for the future</h2>
+
+          <div class="section-one-content">
+            <div class="section-one-img-desk">
+              <img
+                src="/img/illustration-editor-desktop.svg"
+                alt="editor illustraton desktop"
+              />
+            </div>
+            <div class="one-img-mobile">
+              <img
+                src="/img/illustration-editor-mobile.svg"
+                id="img-mobile"
+                alt="editor illustration-editor-mobile"
+              />
+            </div>
+
+            <div class="section-one-copy">
+              <div class="copy-content">
+                <h3 class="h3-info">Introducing an extensible editor</h3>
+                <p>
+                  Blogr features an exceedingly intuitive interface which lets
+                  you focus on one thing: creating content. The editor supports
+                  management of multiple blogs and allows easy manipulation of
+                  embeds such as images, videos, and Markdown. Extensibility
+                  with plugins and themes provide easy ways to add functionality
+                  or change the looks of a blog.
+                </p>
+              </div>
+
+              <div class="copy-content">
+                <h3 class="h3-info">Robust content management</h3>
+                <p>
+                  Flexible content management enables users to easily move
+                  through posts. Increase the usability of your blog by adding
+                  customized categories, sections, format, or flow. With this
+                  functionality, you’re in full control.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THIRD SECTION STARTS HERE -->
+      <div class="section-three">
+        <div class="section-three-img">
+          <img
+            src="/img/illustration-phones.svg"
+            class="img-three"
+            alt="illustration phones"
+          />
+        </div>
+        <div class="content-three">
+          <h3 class="h3">State of the Art Infrastructure</h3>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+      <!-- FOURTH SECTION STARTS HERE -->
+      <div class="section-four">
+        <div class="section-four-img">
+          <img
+            src="/img/illustration-laptop-desktop.svg"
+            class="img-fourth"
+            alt="mobile"
+          />
+        </div>
+        <div class="fourth-content">
+          <h3 class="h3-info">Free, open, simple</h3>
+          <p>
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration,
+            third-party commenting tools, and works seamlessly with Google
+            Analytics. The architecture is clean and is relatively easy to
+            learn.
+          </p>
+          <div class="second-paragraph">
+            <h3 class="h3-info">Powerful tooling</h3>
+            <p>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-logo">
+          <img src="/img/logo.svg" class="footer-img" alt="footer" />
+        </div>
+        <ul class="footer-content">
+          <div class="list-one">
+            <h3>Product</h3>
+            <li><a href="#" class="main-link">Overview</a></li>
+            <li><a href="#" class="main-link">Pricing</a></li>
+            <li><a href="#" class="main-link">Marketplace</a></li>
+            <li><a href="#" class="main-link">Features</a></li>
+            <li><a href="#" class="main-link">Integrations</a></li>
+          </div>
+          <div class="list-two">
+            <h3>Company</h3>
+            <li><a href="#" class="main-link">About</a></li>
+            <li><a href="#" class="main-link">Team</a></li>
+            <li><a href="#" class="main-link">Blog</a></li>
+            <li><a href="#" class="main-link">Careers</a></li>
+          </div>
+          <div class="list-three">
+            <h3>Connect</h3>
+            <li><a href="#" class="main-link">Contact</a></li>
+            <li><a href="#" class="main-link">Newsletter</a></li>
+            <li><a href="#" class="main-link">LinkedIn</a></li>
+          </div>
+        </ul>
+      </footer>
+    </div>
+  </body>
+  <script src="/main.js"></script>
+</html>
